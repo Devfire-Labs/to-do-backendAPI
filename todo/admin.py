@@ -3,7 +3,7 @@ from .models import Todo
 from django.contrib.auth.models import User
 
 superuser = User.objects.create_superuser(
-        username='luis',
+        username='luismi',
         email='luis.parent@unicaribe.edu.do',
         password='1234',
 )
