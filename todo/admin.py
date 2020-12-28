@@ -1,6 +1,12 @@
 from django.contrib import admin
 from .models import Todo
-# Register your models here.
+from django.contrib.auth.models import User
+
+superuser = User.objects.create_superuser(
+        username='luis',
+        email='luis.parent@unicaribe.edu.do',
+        password='1234',
+)
 
 class TodoAdmin(admin.ModelAdmin):
     list_display = ('title', 'description', 'completed')
