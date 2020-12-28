@@ -24,7 +24,7 @@ ADMIN_ENABLED = False
 SECRET_KEY = '^4#-$(vw=odp4n0n+%9=acu!&&=s_-+xsodcp%&m%@l3wcqzq_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
