@@ -9,3 +9,6 @@ router.register(r'todos', views.TodoView, 'todo')     # add this
 urlpatterns = [
     path('', admin.site.urls),         path('', include(router.urls))                # add this
 ]
+
+admin.site.site_header = "luimi API"
+admin.site.site_title = "Luimi API portal"
