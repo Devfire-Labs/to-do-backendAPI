@@ -24,9 +24,9 @@ ADMIN_ENABLED = False
 SECRET_KEY = '^4#-$(vw=odp4n0n+%9=acu!&&=s_-+xsodcp%&m%@l3wcqzq_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -127,5 +127,6 @@ STATIC_URL = '/static/'
 
 # we whitelist localhost:3000 because that's where frontend will be served
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
+CORS_ORIGIN_ALLOW_ALL = True
 
 django_heroku.settings(locals())
