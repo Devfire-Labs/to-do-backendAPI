@@ -3,4 +3,4 @@
 >This code is developed and maintained by [Luismi74]https://github.com/Luismi74
 
 ### Usage
-> Send the request to ```https://to-do-backendapi.herokuapp.com/todos```
+> Send your API requests to ```https://to-do-backendapi.herokuapp.com/todos```.
