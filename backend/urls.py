@@ -10,5 +10,5 @@ urlpatterns = [
     path('', admin.site.urls),         path('', include(router.urls))                # add this
 ]
 
-admin.site.site_header = "luimi API"
-admin.site.site_title = "Luimi API portal"
+admin.site.site_header = "To-Do API"
+admin.site.site_title = "Devfire Labs API portal"
